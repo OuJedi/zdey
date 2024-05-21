@@ -1,0 +1,22 @@
+#
+# Sprite sheet data for Unity.
+#
+# To import these sprites into your Unity project, download "TexturePackerImporter":
+# https://www.codeandweb.com/texturepacker/unity
+#
+# $TexturePacker:SmartUpdate:eb2acc56432f1270b882c1b223109bc1:1b56ea54451f9bacf7502b37d938c8da:92f6709dfa405e649bb94c12c39c5aa4$
+#
+:format=40300
+:texture=spray_attack.png
+:size=64x128
+:pivotpoints=enabled
+:borders=disabled
+:alphahandling=ClearTransparentPixels
+
+spray_attack0;1;36;20;23; -1.7;1.7826086956521738; 0;0;0;0; 4;20;0;0;0;0;23;20;23; 2;1;2;3;0;1;3
+spray_attack1;32;46;22;22; -1.5454545454545454;1.8181818181818183; 0;0;0;0; 4;22;0;0;0;0;22;22;22; 2;1;2;3;0;1;3
+spray_attack2;1;61;29;38; -1.103448275862069;1.263157894736842; 0;0;0;0; 3;29;0;0;18;29;38; 1;0;1;2
+spray_attack3;37;96;24;31; -1.5833333333333333;1.3548387096774195; 0;0;0;0; 4;24;8;16;0;0;16;24;31; 2;0;2;3;0;1;2
+spray_attack4;1;101;34;26; -0.8235294117647058;1.7307692307692308; 0;0;0;0; 3;34;0;0;26;34;26; 1;0;1;2
+spray_attack5;32;70;24;24; -1.5416666666666667;1.75; 0;0;0;0; 3;24;0;0;24;24;24; 1;0;1;2
+spray_attack6;58;89;5;5; -11.4;5.4; 0;0;0;0; 4;5;0;0;0;0;5;5;5; 2;1;2;3;0;1;3

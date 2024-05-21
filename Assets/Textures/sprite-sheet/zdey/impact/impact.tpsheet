@@ -1,0 +1,19 @@
+#
+# Sprite sheet data for Unity.
+#
+# To import these sprites into your Unity project, download "TexturePackerImporter":
+# https://www.codeandweb.com/texturepacker/unity
+#
+# $TexturePacker:SmartUpdate:3cd22e3fdf1ae2ebfd55ea300c94290a:490da9cab6f991c33eaa3635bbf5bf6a:31605d2c52522700cb16587f5ebc8968$
+#
+:format=40300
+:texture=impact.png
+:size=64x64
+:pivotpoints=enabled
+:borders=disabled
+:alphahandling=ClearTransparentPixels
+
+impact0;23;17;12;12; 0.5;0.5; 0;0;0;0; 4;12;0;0;0;0;12;12;12; 2;1;2;3;0;1;3
+impact1;1;9;20;20; 0.5;0.5; 0;0;0;0; 4;20;0;0;0;0;20;20;20; 2;1;2;3;0;1;3
+impact2;1;31;29;32; 0.5172413793103449;0.5; 0;0;0;0; 5;29;6;16;0;0;6;0;28;29;32; 3;0;3;4;1;2;3;0;1;3
+impact3;32;33;31;30; 0.5161290322580645;0.5333333333333333; 0;0;0;0; 4;31;0;0;0;0;30;31;30; 2;1;2;3;0;1;3

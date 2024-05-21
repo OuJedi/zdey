@@ -1,0 +1,567 @@
+fileFormatVersion: 2
+guid: fcb9695d13d12fd499b5693894e27ee5
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 128
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: mouches_1704035484728_1
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 73
+        width: 25
+        height: 15
+      alignment: 9
+      pivot: {x: 0.52, y: 0.53333336}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec0af21f0b938a1468a184beffc573c1
+      internalID: 330943767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mouches_1704035484728_10
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 5
+        width: 19
+        height: 8
+      alignment: 9
+      pivot: {x: 0.47368422, y: 0.25}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c81e1f483fe14ad4392113d17605f456
+      internalID: -1206242793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mouches_1704035484728_11
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 15
+        width: 16
+        height: 7
+      alignment: 9
+      pivot: {x: 0.25, y: 0.14285715}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb4a41e6cd898204397549cce5252308
+      internalID: 108639534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mouches_1704035484728_12
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 33
+        width: 17
+        height: 6
+      alignment: 9
+      pivot: {x: 0.1764706, y: 0.16666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51f1ddce191514f45aa82ae1e5d6a072
+      internalID: -1563573569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mouches_1704035484728_13
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 50
+        width: 23
+        height: 9
+      alignment: 9
+      pivot: {x: 0.3043478, y: 0.22222222}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b1dcf0e62591054393d2236754c00bd
+      internalID: 741335416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mouches_1704035484728_14
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 105
+        width: 26
+        height: 11
+      alignment: 9
+      pivot: {x: 0.3846154, y: 0.27272728}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fed1c753aa08feb43916571dfde6cd6a
+      internalID: 1028258289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mouches_1704035484728_15
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 90
+        width: 29
+        height: 13
+      alignment: 9
+      pivot: {x: 0.44827586, y: 0.3846154}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 221953a9d255cbc4b8b35bbc062e3f1d
+      internalID: 1434286912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mouches_1704035484728_16
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 100
+        width: 31
+        height: 14
+      alignment: 9
+      pivot: {x: 0.48387095, y: 0.42857143}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc0ff99736348634e959f5c9646c6724
+      internalID: -1569427204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mouches_1704035484728_17
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 116
+        width: 32
+        height: 11
+      alignment: 9
+      pivot: {x: 0.5, y: 0.54545456}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d56124596ef5c9f4f8d2c4edb38c2b72
+      internalID: -183908969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mouches_1704035484728_18
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 89
+        width: 31
+        height: 9
+      alignment: 9
+      pivot: {x: 0.516129, y: 0.5555556}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97ede11556e8262439cefa75f86c9bc2
+      internalID: 146884152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mouches_1704035484728_19
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 118
+        width: 28
+        height: 9
+      alignment: 9
+      pivot: {x: 0.5714286, y: 0.44444445}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fef67464616039a45a8029da53330891
+      internalID: 1277741361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mouches_1704035484728_2
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 24
+        width: 17
+        height: 7
+      alignment: 9
+      pivot: {x: 0.5882353, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98d26b2b28877bf4eb248a50d6d082d9
+      internalID: -1480679460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mouches_1704035484728_20
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 52
+        width: 23
+        height: 7
+      alignment: 9
+      pivot: {x: 0.6086956, y: 0.2857143}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b010c8546c988984dbb323b63ddb1250
+      internalID: 974793915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mouches_1704035484728_3
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 75
+        width: 25
+        height: 12
+      alignment: 9
+      pivot: {x: 0.6, y: 0.33333334}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6d395d1dafe1f44c87fc1a9c95cfd0b
+      internalID: -2043286974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mouches_1704035484728_4
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 15
+        width: 16
+        height: 16
+      alignment: 9
+      pivot: {x: 0.9375, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26034bfe875fd9b478ae6f3ecf843ab8
+      internalID: -1148905211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mouches_1704035484728_5
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 57
+        width: 12
+        height: 14
+      alignment: 9
+      pivot: {x: 0.75, y: 0.42857143}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1c7dc5a8062faf4e8114eeaa5b5b254
+      internalID: 1320690742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mouches_1704035484728_6
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 33
+        width: 19
+        height: 15
+      alignment: 9
+      pivot: {x: 0.68421054, y: 0.46666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4f5861d042943e478509acadb5ecc5d
+      internalID: -1052207784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mouches_1704035484728_7
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 61
+        width: 23
+        height: 12
+      alignment: 9
+      pivot: {x: 0.47826087, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c95339da44ddf943a7d1e65ba416920
+      internalID: 1585252270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mouches_1704035484728_8
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 41
+        width: 21
+        height: 9
+      alignment: 9
+      pivot: {x: 0.47619048, y: 0.44444445}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c77915ecf1a287f4182093019ee0a6f3
+      internalID: 1549162583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mouches_1704035484728_9
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 61
+        width: 23
+        height: 10
+      alignment: 9
+      pivot: {x: 0.39130434, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a992a571e5fd9b44a13f200a1df776e
+      internalID: -628002459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: b02f9475cf2a0dc47a492e1d08864840
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      mouches_1704035484728_1: 330943767
+      mouches_1704035484728_10: -1206242793
+      mouches_1704035484728_11: 108639534
+      mouches_1704035484728_12: -1563573569
+      mouches_1704035484728_13: 741335416
+      mouches_1704035484728_14: 1028258289
+      mouches_1704035484728_15: 1434286912
+      mouches_1704035484728_16: -1569427204
+      mouches_1704035484728_17: -183908969
+      mouches_1704035484728_18: 146884152
+      mouches_1704035484728_19: 1277741361
+      mouches_1704035484728_2: -1480679460
+      mouches_1704035484728_20: 974793915
+      mouches_1704035484728_3: -2043286974
+      mouches_1704035484728_4: -1148905211
+      mouches_1704035484728_5: 1320690742
+      mouches_1704035484728_6: -1052207784
+      mouches_1704035484728_7: 1585252270
+      mouches_1704035484728_8: 1549162583
+      mouches_1704035484728_9: -628002459
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,19 @@
+#
+# Sprite sheet data for Unity.
+#
+# To import these sprites into your Unity project, download "TexturePackerImporter":
+# https://www.codeandweb.com/texturepacker/unity
+#
+# $TexturePacker:SmartUpdate:560a7eb45f2a923bf92b2a9f7b99b645:a70704f1f8acbbb8e27529b4b1d077d4:cad19bd0c586f79a8a15d374d35b79cf$
+#
+:format=40300
+:texture=fan.png
+:size=64x64
+:pivotpoints=enabled
+:borders=disabled
+:alphahandling=ClearTransparentPixels
+
+DECOR_Big_Ventilos_1708343945093_1;1;55;39;8; -0.10256410256410256;0; 0;0;0;0; 4;39;0;0;0;0;8;39;8; 2;1;2;3;0;1;3
+DECOR_Big_Ventilos_1708343945093_2;1;45;39;8; -0.10256410256410256;0; 0;0;0;0; 4;39;0;0;0;0;8;39;8; 2;1;2;3;0;1;3
+DECOR_Big_Ventilos_1708343945093_3;1;35;39;8; -0.10256410256410256;0; 0;0;0;0; 4;39;0;0;0;0;8;39;8; 2;1;2;3;0;1;3
+DECOR_Big_Ventilos_1708343945093_4;1;25;39;8; -0.10256410256410256;0; 0;0;0;0; 4;39;0;0;0;0;8;39;8; 2;1;2;3;0;1;3

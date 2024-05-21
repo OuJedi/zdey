@@ -1,0 +1,413 @@
+fileFormatVersion: 2
+guid: 9ad4adba7ee94b54cada93719512b0b9
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 256
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: barrelon0
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 138
+        width: 28
+        height: 36
+      alignment: 9
+      pivot: {x: 0.64285713, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7e08d2e3fa5b5e4d9864b34b0322b80
+      internalID: -268465443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barrelon1
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 176
+        width: 28
+        height: 38
+      alignment: 9
+      pivot: {x: 0.64285713, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4b34c45da3710c429163d0ada39f0e7
+      internalID: -1531240752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barrelon10
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 129
+        width: 21
+        height: 6
+      alignment: 9
+      pivot: {x: -0.6666667, y: -5.8333335}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49fae537dea03ab44bc79a6c9310ab91
+      internalID: 1083643732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barrelon11
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 112
+        width: 19
+        height: 15
+      alignment: 9
+      pivot: {x: -0.68421054, y: -2.2}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af00520e22d43704f8121f1020e4c344
+      internalID: 286094289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barrelon12
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 191
+        width: 3
+        height: 3
+      alignment: 9
+      pivot: {x: -10, y: -11}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b32b11e0d8517548aa645085223bdf2
+      internalID: 884090199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barrelon2
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 153
+        width: 28
+        height: 38
+      alignment: 9
+      pivot: {x: 0.64285713, y: -0.05263158}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5059c95efd60e943bc4dac52e0f2edf
+      internalID: 450374634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barrelon3
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 216
+        width: 30
+        height: 39
+      alignment: 9
+      pivot: {x: 0.6333333, y: -0.15384616}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90b4ac595b9ad684fbb21062d7f5d3ed
+      internalID: -2145050354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barrelon4
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 137
+        width: 33
+        height: 57
+      alignment: 9
+      pivot: {x: 0.57575756, y: -0.10526316}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64a6d615a57fb534bab4d1e9e9f81cdf
+      internalID: -1486432835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barrelon5
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 127
+        width: 24
+        height: 47
+      alignment: 9
+      pivot: {x: 0.33333334, y: -0.29787233}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffbe3bb3878a75c4e8a65dcd0b88874b
+      internalID: 1476259261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barrelon6
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 193
+        width: 39
+        height: 62
+      alignment: 9
+      pivot: {x: 0.12820514, y: -0.016129032}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9a4c8c49020b1445b41ec0e86563ff6
+      internalID: -498014509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barrelon7
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 196
+        width: 38
+        height: 23
+      alignment: 9
+      pivot: {x: 0.05263158, y: -1.6521739}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 024cd3beb8f017c488c014485927d23a
+      internalID: -977996050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barrelon8
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 221
+        width: 41
+        height: 34
+      alignment: 9
+      pivot: {x: 0.12195122, y: -0.88235295}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e62b30283523aa74e886f11d4c379f73
+      internalID: 529346951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: barrelon9
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 114
+        width: 27
+        height: 37
+      alignment: 9
+      pivot: {x: -0.25925925, y: -0.7297297}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e93a9447bbc3984d9d97fe8ead00210
+      internalID: 1620960009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: ccc2db3d033872b43b72e235d7244a5f
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      barrelon0: -268465443
+      barrelon1: -1531240752
+      barrelon10: 1083643732
+      barrelon11: 286094289
+      barrelon12: 884090199
+      barrelon2: 450374634
+      barrelon3: -2145050354
+      barrelon4: -1486432835
+      barrelon5: 1476259261
+      barrelon6: -498014509
+      barrelon7: -977996050
+      barrelon8: 529346951
+      barrelon9: 1620960009
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

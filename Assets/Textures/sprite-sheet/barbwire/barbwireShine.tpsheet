@@ -1,0 +1,22 @@
+#
+# Sprite sheet data for Unity.
+#
+# To import these sprites into your Unity project, download "TexturePackerImporter":
+# https://www.codeandweb.com/texturepacker/unity
+#
+# $TexturePacker:SmartUpdate:7ec93a93a6ad41cc35267d2c4dde3301:eb81ed2bbf4d06175d428900da58a308:c0a360426e73034541cc0dc5c113ebe9$
+#
+:format=40300
+:texture=barbwireShine.png
+:size=32x32
+:pivotpoints=enabled
+:borders=disabled
+:alphahandling=ClearTransparentPixels
+
+barbwire_shine_fx_1704681940480_1;27;14;4;3; -1;-4; 0;0;0;0; 4;4;0;0;0;0;3;4;3; 2;1;2;3;0;1;3
+barbwire_shine_fx_1704681940480_2;25;19;6;4; -0.6666666666666666;-2.75; 0;0;0;0; 4;6;0;0;0;0;4;6;4; 2;1;2;3;0;1;3
+barbwire_shine_fx_1704681940480_3;21;13;4;4; -1.75;-2.5; 0;0;0;0; 4;4;0;0;0;0;4;4;4; 2;1;2;3;0;1;3
+barbwire_shine_fx_1704681940480_4;1;21;11;10; -0.36363636363636365;-0.6000000000000001; 0;0;0;0; 4;11;0;0;0;0;10;11;10; 2;1;2;3;0;1;3
+barbwire_shine_fx_1704681940480_5;14;22;9;9; -0.5555555555555556;-0.7777777777777777; 0;0;0;0; 4;9;0;0;0;0;9;9;9; 2;1;2;3;0;1;3
+barbwire_shine_fx_1704681940480_6;14;14;5;6; -1.4;-1.3333333333333335; 0;0;0;0; 4;5;0;0;0;0;6;5;6; 2;1;2;3;0;1;3
+barbwire_shine_fx_1704681940480_7;25;25;6;6; -1;-1.5; 0;0;0;0; 4;6;0;0;0;0;6;6;6; 2;1;2;3;0;1;3

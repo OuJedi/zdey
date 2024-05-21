@@ -1,0 +1,23 @@
+#
+# Sprite sheet data for Unity.
+#
+# To import these sprites into your Unity project, download "TexturePackerImporter":
+# https://www.codeandweb.com/texturepacker/unity
+#
+# $TexturePacker:SmartUpdate:06682310dfb440545673c6360a6289bb:77094ebb017c88e013180a4064c00da2:a44fe3653621f2ce04bd631fbeec907e$
+#
+:format=40300
+:texture=spray_loop.png
+:size=128x128
+:pivotpoints=enabled
+:borders=disabled
+:alphahandling=ClearTransparentPixels
+
+spray_loop0;64;9;31;33; 0.3225806451612903;0; 0;0;0;0; 4;31;0;0;0;0;33;31;33; 2;1;2;3;0;1;3
+spray_loop1;29;5;33;34; 0.3333333333333333;0; 0;0;0;0; 4;33;0;0;0;0;34;33;34; 2;1;2;3;0;1;3
+spray_loop2;70;45;26;33; 0.4230769230769231;0; 0;0;0;0; 4;26;0;0;0;0;33;26;33; 2;1;2;3;0;1;3
+spray_loop3;53;80;49;47; 0.4489795918367347;0; 0;0;0;0; 3;49;0;0;0;20;47; 1;0;1;2
+spray_loop4;42;44;26;34; 0.4230769230769231;0; 0;0;0;0; 4;26;0;0;0;0;34;26;34; 2;1;2;3;0;1;3
+spray_loop5;1;80;50;47; 0.42;0; 0;0;0;0; 3;50;0;0;0;18;47; 1;0;1;2
+spray_loop6;1;41;39;37; 0.5384615384615384;0; 0;0;0;0; 5;39;17;33;0;0;0;15;36;27;37; 3;0;1;3;1;2;3;0;3;4
+spray_loop7;1;3;26;36; 0.34615384615384615;0; 0;0;0;0; 4;26;0;0;0;0;36;26;36; 2;1;2;3;0;1;3

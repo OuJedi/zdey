@@ -1,0 +1,13 @@
+
+
+
+// Utilisation de DOTween 
+
+private Tween tween;
+tween = DOTween.To(() => gameObject.transform.position, x => gameObject.transform.position = x, new Vector3(2, 0, 0), 1);
+tween.SetDelay(2f);
+tween.SetEase(Ease.OutSine);
+tween.onComplete = () =>
+{
+    gameObject.transform.position = new Vector3(0f, 0f, 0f);
+};

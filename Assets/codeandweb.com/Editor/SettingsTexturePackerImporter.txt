@@ -1,0 +1,125 @@
+version: 2
+tpsheetFileNames:
+- Assets/codeandweb.com/Example/SpriteSheet/sprites.tpsheet
+- Assets/Textures/sprite-sheet/barbwire/barbwireShine.tpsheet
+- Assets/Textures/sprite-sheet/distributeur/distributeur.tpsheet
+- Assets/Textures/sprite-sheet/fan/big/fan.tpsheet
+- Assets/Textures/sprite-sheet/glass1/glassShine1.tpsheet
+- Assets/Textures/sprite-sheet/glass2/glassShine2.tpsheet
+- Assets/Textures/sprite-sheet/graffitiRect/flopDone.tpsheet
+- Assets/Textures/sprite-sheet/graffitiRect/graffitiRect.tpsheet
+- Assets/Textures/sprite-sheet/lever/lever.tpsheet
+- Assets/Textures/sprite-sheet/lever/leverOff.tpsheet
+- Assets/Textures/sprite-sheet/mouches/mouches.tpsheet
+- Assets/Textures/sprite-sheet/pnj/pigeon/fall.tpsheet
+- Assets/Textures/sprite-sheet/pnj/pigeon/vol.tpsheet
+- Assets/Textures/sprite-sheet/secretBarrel/barrelOpened.tpsheet
+- Assets/Textures/sprite-sheet/secretBarrel/cadenas.tpsheet
+- Assets/Textures/sprite-sheet/zdey/barrelon/barrelon.tpsheet
+- Assets/Textures/sprite-sheet/zdey/barrelopen/barrelopen.tpsheet
+- Assets/Textures/sprite-sheet/zdey/barrelout/barrelout.tpsheet
+- Assets/Textures/sprite-sheet/zdey/dead/dead.tpsheet
+- Assets/Textures/sprite-sheet/zdey/dead2/ded2.tpsheet
+- Assets/Textures/sprite-sheet/zdey/equilibrium/equilibrium.tpsheet
+- Assets/Textures/sprite-sheet/zdey/fall/fall.tpsheet
+- Assets/Textures/sprite-sheet/zdey/hit/hit.tpsheet
+- Assets/Textures/sprite-sheet/zdey/idle/idle.tpsheet
+- Assets/Textures/sprite-sheet/zdey/impact/impact.tpsheet
+- Assets/Textures/sprite-sheet/zdey/jump/jump.tpsheet
+- Assets/Textures/sprite-sheet/zdey/jump_dust/jump_dust.tpsheet
+- Assets/Textures/sprite-sheet/zdey/jump_landing/jump_landing.tpsheet
+- Assets/Textures/sprite-sheet/zdey/kick0/kick0.tpsheet
+- Assets/Textures/sprite-sheet/zdey/kick1/kick1.tpsheet
+- Assets/Textures/sprite-sheet/zdey/ladder/ladder.tpsheet
+- Assets/Textures/sprite-sheet/zdey/run/run.tpsheet
+- Assets/Textures/sprite-sheet/zdey/run/wind.tpsheet
+- Assets/Textures/sprite-sheet/zdey/spray/grafitti.tpsheet
+- Assets/Textures/sprite-sheet/zdey/spray/no_spray.tpsheet
+- Assets/Textures/sprite-sheet/zdey/spray/spray.tpsheet
+- Assets/Textures/sprite-sheet/zdey/spray/spray_attack.tpsheet
+- Assets/Textures/sprite-sheet/zdey/spray/spray_loop.tpsheet
+- Assets/Textures/sprite-sheet/zdey/spray/text.tpsheet
+- Assets/Textures/sprite-sheet/zdey/stand/stand.tpsheet
+textureFileNames:
+- Assets/codeandweb.com/Example/SpriteSheet/sprites.png
+- Assets/Textures/sprite-sheet/barbwire/barbwireShine.png
+- Assets/Textures/sprite-sheet/distributeur/distributeur.png
+- Assets/Textures/sprite-sheet/fan/big/fan.png
+- Assets/Textures/sprite-sheet/glass1/glassShine1.png
+- Assets/Textures/sprite-sheet/glass2/glassShine2.png
+- Assets/Textures/sprite-sheet/graffitiRect/flopDone.png
+- Assets/Textures/sprite-sheet/graffitiRect/graffitiRect.png
+- Assets/Textures/sprite-sheet/lever/lever.png
+- Assets/Textures/sprite-sheet/lever/leverOff.png
+- Assets/Textures/sprite-sheet/mouches/mouches.png
+- Assets/Textures/sprite-sheet/pnj/pigeon/fall.png
+- Assets/Textures/sprite-sheet/pnj/pigeon/vol.png
+- Assets/Textures/sprite-sheet/secretBarrel/barrelOpened.png
+- Assets/Textures/sprite-sheet/secretBarrel/cadenas.png
+- Assets/Textures/sprite-sheet/zdey/barrelon/barrelon.png
+- Assets/Textures/sprite-sheet/zdey/barrelopen/barrelopen.png
+- Assets/Textures/sprite-sheet/zdey/barrelout/barrelout.png
+- Assets/Textures/sprite-sheet/zdey/dead/dead.png
+- Assets/Textures/sprite-sheet/zdey/dead2/ded2.png
+- Assets/Textures/sprite-sheet/zdey/equilibrium/equilibrium.png
+- Assets/Textures/sprite-sheet/zdey/fall/fall.png
+- Assets/Textures/sprite-sheet/zdey/hit/hit.png
+- Assets/Textures/sprite-sheet/zdey/idle/idle.png
+- Assets/Textures/sprite-sheet/zdey/impact/impact.png
+- Assets/Textures/sprite-sheet/zdey/jump/jump.png
+- Assets/Textures/sprite-sheet/zdey/jump_dust/jump_dust.png
+- Assets/Textures/sprite-sheet/zdey/jump_landing/jump_landing.png
+- Assets/Textures/sprite-sheet/zdey/kick0/kick0.png
+- Assets/Textures/sprite-sheet/zdey/kick1/kick1.png
+- Assets/Textures/sprite-sheet/zdey/ladder/ladder.png
+- Assets/Textures/sprite-sheet/zdey/run/run.png
+- Assets/Textures/sprite-sheet/zdey/run/wind.png
+- Assets/Textures/sprite-sheet/zdey/spray/grafitti.png
+- Assets/Textures/sprite-sheet/zdey/spray/no_spray.png
+- Assets/Textures/sprite-sheet/zdey/spray/spray.png
+- Assets/Textures/sprite-sheet/zdey/spray/spray_attack.png
+- Assets/Textures/sprite-sheet/zdey/spray/spray_loop.png
+- Assets/Textures/sprite-sheet/zdey/spray/text.png
+- Assets/Textures/sprite-sheet/zdey/stand/stand.png
+normalmapFileNames:
+- Assets/codeandweb.com/Example/SpriteSheet/sprites_n.png
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+enableDebugOutput: 0

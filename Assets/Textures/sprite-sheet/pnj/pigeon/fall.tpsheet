@@ -1,0 +1,20 @@
+#
+# Sprite sheet data for Unity.
+#
+# To import these sprites into your Unity project, download "TexturePackerImporter":
+# https://www.codeandweb.com/texturepacker/unity
+#
+# $TexturePacker:SmartUpdate:105a15cff349b05b116805119f9ee142:8bcd78bbfc18daadbcecdf46c309c26a:60ede673970563fecd2a6916459a7f1d$
+#
+:format=40300
+:texture=fall.png
+:size=32x64
+:pivotpoints=enabled
+:borders=disabled
+:alphahandling=ClearTransparentPixels
+
+pigeon_fall_1708553515739_0;1;47;16;16; 0.5;0.5; 0;0;0;0; 5;16;13;16;0;0;0;0;11;13;16; 3;0;1;3;1;2;3;0;3;4
+pigeon_fall_1708553515739_1;18;29;13;16; 0.5384615384615384;0.5; 0;0;0;0; 5;13;3;10;0;0;0;0;16;11;16; 3;0;3;4;1;2;3;0;1;3
+pigeon_fall_1708553515739_2;1;29;15;16; 0.4666666666666667;0.5; 0;0;0;0; 4;15;0;0;0;0;16;15;16; 2;1;2;3;0;1;3
+pigeon_fall_1708553515739_3;19;47;12;16; 0.3333333333333333;0.5; 0;0;0;0; 4;12;0;0;0;0;16;12;16; 2;1;2;3;0;1;3
+pigeon_fall_1708553515739_4;1;11;15;16; 0.4666666666666667;0.5; 0;0;0;0; 4;15;0;0;0;0;16;15;16; 2;1;2;3;0;1;3

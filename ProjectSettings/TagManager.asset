@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Back
+  - Middle
+  - Front
+  - Near
+  - NearDetail
+  - Platform
+  - Oblic
+  - Level
+  - DeadZone
+  - Ladder
+  - TopOfLadder
+  - BarbWire
+  - Lever
+  - Pigeon
+  - Garbage
+  - BorderZone
+  - Teleport
+  - SecretZone
+  - EndZone
+  - Distributeur
+  - GraffitiRect
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - player
+  - Water
+  - UI
+  - Ground
+  - NoPostProcess
+  - Ladder
+  - Triggable
+  - MasqueGraffiti
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Player
+    uniqueID: 3358314297
+    locked: 0
+  - name: Garffiti
+    uniqueID: 3180847757
+    locked: 0
