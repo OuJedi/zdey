@@ -79,6 +79,7 @@ public class PlayerControler : MonoBehaviour
     private bool isTeleporting;
     private bool barrelOpenProcess;
     private GameObject currentTeleport;
+    private bool overstepProcess;
 
     private void Awake()
     {
@@ -174,7 +175,7 @@ public class PlayerControler : MonoBehaviour
 
             case "ActionDown":
 
-                if (sprayEndAnimation && currentLever && Tools.Instance.IsFacingTarget(gameObject, currentLever, 1))
+                if (sprayEndAnimation && currentLever)
                 {
                     action();
                     playClip("kick1");
@@ -220,7 +221,14 @@ public class PlayerControler : MonoBehaviour
 
                 isSprayDown = true;
 
-                if (!isFalling && !isJumping && !ladderClimb.isClimbing && !teleporting && !barrelOpenProcess)
+                if (
+                    !isFalling &&
+                    !isJumping &&
+                    !ladderClimb.isClimbing &&
+                    !teleporting &&
+                    !barrelOpenProcess &&
+                    !overstepProcess
+                    )
                 {
                     spraying = true;
                     isStopMoving = true;
@@ -254,7 +262,12 @@ public class PlayerControler : MonoBehaviour
 
                 isSprayDown = false;
 
-                if ((sprayEndAnimation || graffitiStart) && !teleporting && !barrelOpenProcess)
+                if (
+                    (sprayEndAnimation || graffitiStart) &&
+                    !teleporting &&
+                    !barrelOpenProcess &&
+                    !overstepProcess
+                    )
                 {
                     disableSprying();
                 }
@@ -474,6 +487,12 @@ public class PlayerControler : MonoBehaviour
         animator.Play("playerAnimations.graffiti", 0, 0);
     }
 
+    void overstep()
+    {
+        animator.speed = PlayerAnimationSpeed.overstep;
+        animator.Play("playerAnimations.overstep", 0, 0);
+    }
+
 
 
     public void onAnimationClipComplete(string name)
@@ -666,6 +685,21 @@ public class PlayerControler : MonoBehaviour
 
                 break;
 
+
+            case "overstep":
+
+                Debug.Log("onAnimationClipComplete overstep");
+
+                isAction = false;
+
+                transform.position = new Vector2(transform.position.x + 1 * transform.localScale.x, transform.position.y + 1);
+
+                isStopMoving = false;
+
+                overstepProcess = false;
+
+                break;
+
         }
 
 
@@ -846,10 +880,13 @@ public class PlayerControler : MonoBehaviour
             currentTeleport = collision.gameObject;
         }
 
-        if (collision.CompareTag("OverstepZone") && Tools.Instance.IsFacingTarget(collision.gameObject, gameObject))
+        if (collision.CompareTag("OverstepZone") && Tools.Instance.IsFacingTarget(gameObject, collision.gameObject))
         {
             Debug.Log("OverstepZone IN");
-           
+            overstepProcess = true;
+            action();
+            playClip("overstep");
+
         }
 
 
@@ -1019,6 +1056,10 @@ public class PlayerControler : MonoBehaviour
 
             case "graffiti":
                 graffiti();
+                break;
+
+            case "overstep":
+                overstep();
                 break;
 
         }

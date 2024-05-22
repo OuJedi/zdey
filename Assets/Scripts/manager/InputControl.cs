@@ -17,6 +17,8 @@ public class InputControl : MonoBehaviour
         //DontDestroyOnLoad(gameObject);
         _instance = this;
         _onInteractionEvent = new UnityEvent<string, float>();
+
+        Debug.Log("GetJoystickNames:" + Input.GetJoystickNames()[0]);
     }
 
     public static InputControl Instance
@@ -59,14 +61,22 @@ public class InputControl : MonoBehaviour
         dirY = Input.GetAxisRaw("Vertical");
 
 
-        if(dirY != 0)
+        if (Mathf.Abs(dirY) > Config.joystickDriftTolerence)
         {
             _onInteractionEvent.Invoke("Vertical", dirY);
         }
-        
-        if(dirX != 0)
+        else
+        {
+            dirY = 0;
+        }
+
+        if (Mathf.Abs(dirX) > Config.joystickDriftTolerence)
         {
             _onInteractionEvent.Invoke("Horizontal", dirX);
+        }
+        else
+        {
+            dirX = 0;
         }
 
         if (Input.GetButtonDown("Horizontal"))
@@ -76,7 +86,7 @@ public class InputControl : MonoBehaviour
 
         if (Input.GetButtonDown("Vertical"))
         {
-           
+
             _onInteractionEvent.Invoke("VerticalDown", dirY);
         }
 
@@ -105,14 +115,14 @@ public class InputControl : MonoBehaviour
             _onInteractionEvent.Invoke("SprayDown", 0f);
             Debug.Log("Spray");
         }
-        
+
         if (Input.GetButtonUp("Spray"))
         {
             _onInteractionEvent.Invoke("SprayUp", 0f);
             Debug.Log("SprayUp");
         }
 
-       
+
 
     }
 }

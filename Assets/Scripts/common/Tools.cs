@@ -151,10 +151,15 @@ public class Tools : MonoBehaviour
 
 
 
-    public bool IsFacingTarget(GameObject source, GameObject target, float targetSize = -1f)
+    public bool IsFacingTarget(GameObject source, GameObject target)
     {
-        float direction = target.transform.position.x - source.transform.position.x;
-        return (Math.Sign(direction * source.transform.localScale.x) > 0 || (targetSize != -1 && MathF.Abs(direction) <= targetSize / 2));
+      
+        float delta = (target.transform.position.x - source.transform.position.x);
+        float direction = delta * Math.Sign(source.transform.localScale.x);
+
+        return direction > 0;
+
+
     }
 
 

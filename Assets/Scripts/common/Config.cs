@@ -31,6 +31,7 @@ public class PlayerAnimationSpeed
     public static float spray = 2f;
     public static float sprayAttack = 1f;
     public static float graffiti = 1f;
+    public static float overstep = 1.85f;
 
 }
 
@@ -50,6 +51,7 @@ public class Config
     public static float graffitiProgressVal = .6f;
     public static bool infinitGauge = true;
     public static float idleDelay = 5f;
+    public static float joystickDriftTolerence = .08f;
 
 }
 
