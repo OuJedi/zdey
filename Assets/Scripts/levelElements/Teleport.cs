@@ -17,7 +17,7 @@ public class Teleport : MonoBehaviour
 
     void Start()
     {
-        virtualCamera = FindObjectOfType<CinemachineVirtualCamera>();
+        virtualCamera = FindFirstObjectByType<CinemachineVirtualCamera>();
         m_Follow = virtualCamera.Follow;
         originalFollowTarget = m_Follow;
         spriteMask = mask.GetComponent<SpriteMask>();
@@ -25,14 +25,14 @@ public class Teleport : MonoBehaviour
     }
 
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    public void action(Collider2D collision)
     {
-
+        Debug.Log("collision:"+ collision);
         float direction = Mathf.Sign(gameObject.transform.localScale.x);
         float destDirection = Mathf.Sign(destination.transform.localScale.x);
 
-        if (collision.CompareTag("Player") && !Tools.Instance.IsFacingTarget(collision.gameObject, gameObject))
-        {
+        //if (collision.CompareTag("Player") && !Tools.Instance.IsFacingTarget(collision.gameObject, gameObject))
+        //{
             spriteMask.enabled = true;
             spriteMaskDest.enabled = true;
 
@@ -67,7 +67,7 @@ public class Teleport : MonoBehaviour
 
             };
 
-        }
+        //}
 
 
     }

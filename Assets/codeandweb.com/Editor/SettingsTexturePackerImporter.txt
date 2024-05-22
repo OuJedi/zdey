@@ -31,6 +31,7 @@ tpsheetFileNames:
 - Assets/Textures/sprite-sheet/zdey/kick0/kick0.tpsheet
 - Assets/Textures/sprite-sheet/zdey/kick1/kick1.tpsheet
 - Assets/Textures/sprite-sheet/zdey/ladder/ladder.tpsheet
+- Assets/Textures/sprite-sheet/zdey/overstep/overstep.tpsheet
 - Assets/Textures/sprite-sheet/zdey/run/run.tpsheet
 - Assets/Textures/sprite-sheet/zdey/run/wind.tpsheet
 - Assets/Textures/sprite-sheet/zdey/spray/grafitti.tpsheet
@@ -72,6 +73,7 @@ textureFileNames:
 - Assets/Textures/sprite-sheet/zdey/kick0/kick0.png
 - Assets/Textures/sprite-sheet/zdey/kick1/kick1.png
 - Assets/Textures/sprite-sheet/zdey/ladder/ladder.png
+- Assets/Textures/sprite-sheet/zdey/overstep/overstep.png
 - Assets/Textures/sprite-sheet/zdey/run/run.png
 - Assets/Textures/sprite-sheet/zdey/run/wind.png
 - Assets/Textures/sprite-sheet/zdey/spray/grafitti.png
@@ -83,6 +85,7 @@ textureFileNames:
 - Assets/Textures/sprite-sheet/zdey/stand/stand.png
 normalmapFileNames:
 - Assets/codeandweb.com/Example/SpriteSheet/sprites_n.png
+- 
 - 
 - 
 - 

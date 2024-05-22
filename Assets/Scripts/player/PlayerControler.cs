@@ -78,6 +78,7 @@ public class PlayerControler : MonoBehaviour
     private bool isSprayDown;
     private bool isTeleporting;
     private bool barrelOpenProcess;
+    private GameObject currentTeleport;
 
     private void Awake()
     {
@@ -92,7 +93,7 @@ public class PlayerControler : MonoBehaviour
         impactSprite.SetActive(false);
         sprayText.SetActive(false);
         initImpactPos = impactSprite.transform.localPosition;
-        cinemachineVirtualCamera = FindObjectOfType<CinemachineVirtualCamera>();
+        cinemachineVirtualCamera = FindFirstObjectByType<CinemachineVirtualCamera>();
         cinemachineBasicMultiChannelPerlin = cinemachineVirtualCamera.GetCinemachineComponent<CinemachineBasicMultiChannelPerlin>();
         cinemachineConfiner2D = cinemachineVirtualCamera.GetComponent<CinemachineConfiner2D>();
         defaultVirtualCameraBoundingShape2D = (PolygonCollider2D)cinemachineConfiner2D.m_BoundingShape2D;
@@ -202,6 +203,13 @@ public class PlayerControler : MonoBehaviour
                     action();
                     playClip("barrelOpen");
                     barrelOpenProcess = true;
+                }
+
+                if (sprayEndAnimation && currentTeleport)
+                {
+                    Teleport teleport = currentTeleport.GetComponent<Teleport>();
+                    teleport.action(GetComponent<Collider2D>());
+                    currentTeleport = null;
                 }
 
                 break;
@@ -830,7 +838,18 @@ public class PlayerControler : MonoBehaviour
 
             currentGraffitiRect = !collision.gameObject.GetComponent<GraffitiRect>().done ? collision.gameObject : null;
 
+        }
 
+        if (collision.CompareTag("Teleport"))
+        {
+            Debug.Log("Teleport IN");
+            currentTeleport = collision.gameObject;
+        }
+
+        if (collision.CompareTag("OverstepZone") && Tools.Instance.IsFacingTarget(collision.gameObject, gameObject))
+        {
+            Debug.Log("OverstepZone IN");
+           
         }
 
 
@@ -873,6 +892,14 @@ public class PlayerControler : MonoBehaviour
         {
             Debug.Log("GraffitiRect OUT");
             currentGraffitiRect = null;
+        }
+
+        if (collision.CompareTag("Teleport"))
+        {
+            Debug.Log("Teleport OUT");
+
+            currentTeleport = null;
+
         }
     }
 
@@ -1336,7 +1363,7 @@ public class PlayerControler : MonoBehaviour
     {
         disposed = true;
         controller.OnLandEvent.RemoveListener(onLandEvent);
-        InputControl.Instance.OnInteractionEvent.RemoveListener(onInteractionEvent);       
+        InputControl.Instance.OnInteractionEvent.RemoveListener(onInteractionEvent);
 
         ladderClimb.onStartClimbing.RemoveListener(onStartClimbing);
         ladderClimb.onStopClimbing.RemoveListener(onStopClimbing);
