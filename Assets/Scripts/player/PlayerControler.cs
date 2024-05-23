@@ -698,6 +698,8 @@ public class PlayerControler : MonoBehaviour
 
                 overstepProcess = false;
 
+                rb2d.gravityScale = gravityScale;
+
                 break;
 
         }
@@ -880,9 +882,10 @@ public class PlayerControler : MonoBehaviour
             currentTeleport = collision.gameObject;
         }
 
-        if (collision.CompareTag("OverstepZone") && Tools.Instance.IsFacingTarget(gameObject, collision.gameObject))
+        if (collision.CompareTag("OverstepZone") && Tools.Instance.IsFacingTarget(gameObject, collision.gameObject) && !isFalling)
         {
             Debug.Log("OverstepZone IN");
+            rb2d.gravityScale = 0;
             overstepProcess = true;
             action();
             playClip("overstep");

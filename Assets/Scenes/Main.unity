@@ -522,8 +522,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   levels:
   - Tutorial
-  - Level 1
   - Level 2
+  - Level 1
   uiButtons: {fileID: 697606935}
   interlayer: {fileID: 2120656427}
   interlayerText: {fileID: 1515736598}
