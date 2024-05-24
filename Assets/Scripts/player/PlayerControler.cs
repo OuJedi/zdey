@@ -844,11 +844,13 @@ public class PlayerControler : MonoBehaviour
 
         if (collision.CompareTag("Lever"))
         {
+            sprayEndAnimation = true;
             currentLever = collision.gameObject;
         }
 
         if (collision.CompareTag("Garbage"))
         {
+            sprayEndAnimation = true;
             currentGarbage = collision.gameObject;
         }
 
@@ -861,6 +863,7 @@ public class PlayerControler : MonoBehaviour
         {
             originalBarrel = currentBarrel = collision.gameObject.GetComponent<SecretBarrel>().isOpened ? null : collision.gameObject;
             actionAccess = true;
+            sprayEndAnimation = true;
         }
 
         if (collision.CompareTag("EndZone"))
